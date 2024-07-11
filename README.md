@@ -13,25 +13,25 @@ This project involves creating a database for managing student courses. The data
 ##### Table Creation
 - Create the following tables with appropriate data types and constraints:
   
-**Students:**
+**Students**:
 * student_id (Primary Key, INT, AUTO_INCREMENT)
 * first_name (VARCHAR)
 * last_name (VARCHAR)
 * email (VARCHAR)
 * date_of_birth (DATE)
 
-**Courses**  
+**Courses**: 
 * course_id (Primary Key, INT, AUTO_INCREMENT)
 * course_name (VARCHAR)
 * course_description (TEXT)
 
-**Instructors**
+**Instructors**:
 * instructor_id (Primary Key, INT, AUTO_INCREMENT)
 * first_name (VARCHAR)
 * last_name (VARCHAR)
 * email (VARCHAR)
 
-**Enrollments**
+**Enrollments**:
 * enrollment_id (Primary Key, INT, AUTO_INCREMENT)
 * student_id (Foreign Key, INT)
 * course_id (Foreign Key, INT)
