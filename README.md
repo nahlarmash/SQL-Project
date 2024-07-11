@@ -44,7 +44,7 @@ This project involves creating a database for managing student courses. The data
 - Select all students.
 - Select all courses.
 - Select all enrollments with student names and course names.
-- 
+ 
 ##### Advanced Queries
 - Select students who enrolled in a specific course.
 - Select courses with more than 5 students.
